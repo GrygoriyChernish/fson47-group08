@@ -105,6 +105,125 @@ img {
   margin-bottom: 50px;
 }
 
+.order {
+  background-color: #f8edf0;
+}
+
+.order__container {
+  position: relative;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 439px;
+  padding-right: 15px;
+  padding-top: 90px;
+  padding-bottom: 162px;
+}
+
+.order__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 35px;
+}
+
+.order__title {
+  max-width: 621px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 44.2px;
+  line-height: 1.18;
+  color: #000000;
+}
+
+.order__desc {
+  max-width: 607px;
+  margin-bottom: 29px;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #0f0101;
+  opacity: 0.7;
+}
+
+.options {
+  margin-bottom: 52px;
+}
+
+.options__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.options__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.options__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: #ffffff;
+  border-radius: 3px;
+}
+
+.options__text {
+  font-size: 22px;
+  line-height: 1.18;
+  color: #000000;
+}
+
+.download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.download__item:not(:last-child) {
+  margin-right: 21px;
+}
+
+.download__item:first-child {
+  background-image: url(.././images/order-img-svg/google-play.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.download__item:last-child {
+  background-image: url(.././images/order-img-svg/app-store.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.download__button:first-child {
+  width: 200px;
+  height: 77px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.download__button:last-child {
+  width: 173px;
+  height: 88px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .button {
   color: #fafafa;
   background-color: #d23166;
