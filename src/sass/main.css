@@ -335,7 +335,8 @@ img {
   padding: 29px 30px;
 }
 
-.question__input:hover, .question__input:focus {
+.question__input:hover,
+.question__input:focus {
   outline: none;
 }
 
