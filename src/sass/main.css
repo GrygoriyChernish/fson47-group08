@@ -170,6 +170,127 @@ img {
   margin-bottom: 50px;
 }
 
+.review {
+  background-color: #fff;
+}
+
+.review__container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.review__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 199px;
+  margin-bottom: 46px;
+  margin-left: 0px;
+}
+
+.review__icon {
+  margin-right: 11px;
+}
+
+.review__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  color: #000000;
+}
+
+.review__text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+  color: #000000;
+  opacity: 0.7;
+  margin-top: 5px;
+}
+
+.review__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.feedback {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-bottom: 56px;
+}
+
+.feedback__icon {
+  fill: #f6762c;
+}
+
+.feedback__icon--right {
+  position: absolute;
+  right: 50px;
+  bottom: 3px;
+}
+
+.feedback__text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  opacity: 0.7;
+  width: 322px;
+  margin-left: 12.04px;
+  margin-right: 7px;
+}
+
+.feedback-photos {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 0px;
+  padding-bottom: 233.19px;
+}
+
+.feedback-photos__item:nth-child(2) {
+  margin-left: 25px;
+  margin-right: 27px;
+}
+
+.feedback-photos__item:nth-child(4) {
+  margin-right: 25px;
+  margin-left: 26.19px;
+}
+
+.review-image {
+  margin-left: 224px;
+}
+
 .order {
   background-color: #f8edf0;
 }
