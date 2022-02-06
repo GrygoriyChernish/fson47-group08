@@ -1,6 +1,6 @@
 .hero__section {
-  max-width: 1600px;
-  background-color: rgba(242, 206, 218, 0.3);
+
+  background-color:rgba(242, 206, 218, 0.3) ;
 }
 
 .hero {
@@ -38,8 +38,9 @@
 
   margin-bottom: 35px;
 }
-.pink {
-  color: #d23166;
+
+.pink{
+  color:var( --accent-color-with-overlay);
 }
 .hero__text {
   font-family: 'Hind Madurai', sans-serif;
