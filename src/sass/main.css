@@ -490,7 +490,7 @@ img {
 }
 
 .question__container {
-  padding-left: 433px;
+  padding-left: 233px;
   padding-top: 191px;
   padding-bottom: 129px;
 }
@@ -528,8 +528,7 @@ img {
   padding: 29px 30px;
 }
 
-.question__input:hover,
-.question__input:focus {
+.question__input:hover, .question__input:focus {
   outline: none;
 }
 
@@ -710,5 +709,10 @@ img {
   border: none;
   padding: 15px 50px;
   border-radius: 5px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto 0;
 }
 /*# sourceMappingURL=main.css.map */

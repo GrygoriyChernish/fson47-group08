@@ -3,7 +3,7 @@
 }
 
 .question__container {
-    padding-left: 433px;
+    padding-left: 233px;
     padding-top: 191px;
     padding-bottom: 129px;  
   }
@@ -20,7 +20,6 @@
   }
 
   .question__button {
-  
     width: 134px;
     height: 74px;  
   }
@@ -40,11 +39,13 @@
     background-color: transparent;
     border: none;
     padding: 29px 30px;
-  }
-
-  .question__input:hover, 
-  .question__input:focus {
+    &:hover, 
+    &:focus {
     outline: none;
   }
+
+  }
+
+  
 
 
