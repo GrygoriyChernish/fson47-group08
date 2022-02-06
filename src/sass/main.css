@@ -170,6 +170,78 @@ img {
   margin-bottom: 50px;
 }
 
+.section--presentation {
+  background-color: #F8EDF0;
+}
+
+.presentation {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.presentation__box {
+  width: 442px;
+  padding-top: 141.4px;
+  padding-bottom: 146.4px;
+}
+
+.presentation__img-ice {
+  position: absolute;
+  right: 0;
+  top: -72px;
+}
+
+.presentation__img-ellipse {
+  position: absolute;
+  right: 182px;
+  bottom: 71.2px;
+}
+
+.presentation__title {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 1.1;
+  color: #150101;
+  margin-left: 2px;
+  margin-right: 92px;
+  margin-bottom: 16px;
+}
+
+.presentation_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #150101;
+  opacity: 0.6;
+  margin-bottom: 25px;
+}
+
+.presentation__button {
+  color: #FAFAFA;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  width: 165px;
+  height: 49px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #D64374;
+  border-radius: 5px;
+  border: none;
+  margin-left: 2px;
+}
+
 .review {
   background-color: #fff;
 }
@@ -459,6 +531,171 @@ img {
 .question__input:hover,
 .question__input:focus {
   outline: none;
+}
+
+.footer {
+  background-color: #0a0808;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.footer-thumb {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.social {
+  max-width: 207px;
+}
+
+.social_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social__text {
+  margin-bottom: 25px;
+  font-size: 12px;
+  line-height: 1.41;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.social__title {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16;
+  color: #ffffff;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-nav__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-nav__link {
+  font-size: 12px;
+  line-height: 1.16;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.policy__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.policy__link {
+  font-size: 12px;
+  line-height: 1.16;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.footer-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-nav--current {
+  opacity: 1;
+}
+
+.footer-sign__form {
+  position: relative;
+}
+
+.footer-sign__title {
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #ffffff;
+}
+
+.footer-sign__input {
+  padding-left: 32px;
+  margin-bottom: 15px;
+  color: #ffffff;
+  opacity: 0.5;
+  min-width: 388px;
+  min-height: 55px;
+  background-color: #0a0808;
+  border: 2px solid #d64374;
+  border-radius: 5px;
+}
+
+.footer-sign__input::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.footer-sign__input:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.footer-sign__input::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.footer-sign__input::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.footer-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 125px;
+  min-height: 55px;
+}
+
+.payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.payment__item:not(:last-child) {
+  margin-right: 16px;
 }
 
 .button {
