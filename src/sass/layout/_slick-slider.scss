@@ -1,0 +1,22 @@
+.slider-item{
+ background-color: aqua;
+ height: 100px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: 2px solid tomato;
+}
+
+.container-slider {
+  height: 200px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.slick-prev, .slick-next {
+  background-color: tomato;
+  &:hover, &:focus {
+    background-color: green;
+  }
+}
